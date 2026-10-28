@@ -1,0 +1,108 @@
+{
+  "inform": {
+    "url": "https://tangible.media.mit.edu/project/inform/",
+    "meta": [
+      "<meta name=\"og:image\" content=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/badge?width=600\" data-gatsby-head=\"true\"/>",
+      "<meta name=\"twitter:image\" content=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/badge?width=600\" data-gatsby-head=\"true\"/>"
+    ],
+    "imgs": [
+      "<img class=\"detail-badge\" alt=\"inFORM\" src=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/badge?width=140\"/>",
+      "<img src=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM Collection/4676?width=780\" alt=\"\"/>",
+      "<img class=\"selected\" src=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM Collection/4676?height=60\" alt=\"inFORM Collection item 1\"/>",
+      "<img class=\"\" src=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM Collection/4677?height=60\" alt=\"inFORM Collection item 1\"/>",
+      "<img class=\"\" src=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM Collection/4678?height=60\" alt=\"inFORM Collection item 1\"/>",
+      "<img class=\"\" src=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM Collection/4679?height=60\" alt=\"inFORM Collection item 1\"/>",
+      "<img class=\"\" src=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM Collection/4680?height=60\" alt=\"inFORM Collection item 1\"/>",
+      "<img class=\"\" src=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM Collection/4681?height=60\" alt=\"inFORM Collection item 1\"/>",
+      "<img class=\"\" src=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM Collection/4682?height=60\" alt=\"inFORM Collection item 1\"/>",
+      "<img class=\"\" src=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM Collection/4683?height=60\" alt=\"inFORM Collection item 1\"/>",
+      "<img class=\"\" src=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM Collection/4684?height=60\" alt=\"inFORM Collection item 1\"/>",
+      "<img class=\"\" src=\"https://trackr-media.tangiblemedia.org/publishedmedia/Projects/2013-inFORM/inFORM Collection/4685?height=60\" alt=\"inFORM Collection item 1\"/>"
+    ]
+  },
+  "alterego": {
+    "url": "https://www.media.mit.edu/projects/alterego/overview/",
+    "meta": [
+      "<meta property='og:image' content='https://dam-prod.media.mit.edu/thumb/2018/04/04/cover_alterego.png.1400x1400.png' />",
+      "<meta name='twitter:image' content='https://dam-prod.media.mit.edu/thumb/2018/04/04/cover_alterego.png.1400x1400.png' />"
+    ],
+    "imgs": []
+  },
+  "dynamicland": {
+    "url": "https://dynamicland.org/2024/Intro/",
+    "meta": [],
+    "imgs": [
+      "<img src=\"thumbnail-0001.jpg\" data-start=\"0.38\" alt=\"\">",
+      "<img src=\"thumbnail-0024.jpg\" data-start=\"23.00\" alt=\"\">",
+      "<img src=\"thumbnail-0034.jpg\" data-start=\"33.00\" alt=\"\">",
+      "<img src=\"thumbnail-0043.jpg\" data-start=\"42.19\" alt=\"\">",
+      "<img src=\"thumbnail-0049.jpg\" data-start=\"48.06\" alt=\"\">",
+      "<img src=\"thumbnail-0053.jpg\" data-start=\"52.70\" alt=\"\">",
+      "<img src=\"thumbnail-0061.jpg\" data-start=\"60.00\" alt=\"\">",
+      "<img src=\"thumbnail-0064.jpg\" data-start=\"63.99\" alt=\"\">",
+      "<img src=\"thumbnail-0069.jpg\" data-start=\"68.46\" alt=\"\">",
+      "<img src=\"thumbnail-0070.jpg\" data-start=\"69.86\" alt=\"\">",
+      "<img src=\"thumbnail-0076.jpg\" data-start=\"75.26\" alt=\"\">",
+      "<img src=\"thumbnail-0083.jpg\" data-start=\"82.18\" alt=\"\">"
+    ]
+  },
+  "omnitouch": {
+    "url": "https://www.chrisharrison.net/index.php/Research/OmniTouch",
+    "meta": [],
+    "imgs": [
+      "<img align='absmiddle'  src='https://chrisharrison.net/other/minipdf.png' alt='' />",
+      "<img align='absmiddle'  src='https://chrisharrison.net/other/minimov.png' alt='' />",
+      "<img align='absmiddle'  src='https://chrisharrison.net/other/minimov.png' alt='' />",
+      "<img src='http://chrisharrison.net/projects/omnitouch/IMG_0127.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/omnitouch/IMG_0130.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/omnitouch/IMG_0196.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/omnitouch/IMG_0253.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/omnitouch/IMG_0255.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/omnitouch/IMG_0262.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/omnitouch/5.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/omnitouch/6.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/omnitouch/IMG_0533.jpg' alt='' />"
+    ]
+  },
+  "skinput": {
+    "url": "https://www.chrisharrison.net/index.php/Research/Skinput",
+    "meta": [],
+    "imgs": [
+      "<img align='absmiddle'  src='https://chrisharrison.net/other/minipdf.png' alt='' />",
+      "<img src='http://chrisharrison.net/projects/skinput/images/slidingInter2small.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/skinput/images/TSS_7073small.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/skinput/images/TSS_7127small.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/skinput/images/TSS_7108small.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/skinput/images/TSS_6979small.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/skinput/images/TSS_6982small.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/skinput/images/armbandsmall.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/skinput/images/SensorsInternalsmall.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/skinput/images/TSS_7065med.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/skinput/images/projectHand1med.jpg' alt='' />"
+    ]
+  },
+  "tapsense": {
+    "url": "https://www.chrisharrison.net/index.php/Research/TapSense/",
+    "meta": [],
+    "imgs": [
+      "<img src='https://www.chrisharrison.net/img/tapsensesplash3.jpg' alt='' title='' />",
+      "<img align='absmiddle'  src='https://chrisharrison.net/other/minipdf.png' alt='' />",
+      "<img align='absmiddle'  src='https://chrisharrison.net/other/minimov.png' alt='' />",
+      "<img src='http://chrisharrison.net/projects/tapsense/IMG_2749.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/tapsense/IMG_2770.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/tapsense/IMG_2780.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/tapsense/IMG_6611.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/tapsense/2.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/tapsense/3.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/tapsense/IMG_2794.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/tapsense/IMG_2815.jpg' alt='' />",
+      "<img src='http://chrisharrison.net/projects/tapsense/13.jpg' alt='' />"
+    ]
+  },
+  "generative-agents": {
+    "error": "HTTP Error 404: Not Found"
+  },
+  "zanzibar": {
+    "error": "HTTP Error 403: Forbidden"
+  }
+}

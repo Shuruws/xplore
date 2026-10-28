@@ -1,0 +1,74 @@
+[
+  {
+    "id": "inform", "name": "inFORM", "title": "当屏幕有了形状。", "team": "MIT · Tangible Media Group", "year": 2013,
+    "summary": "一张会升起、变形的桌面，让数字信息成为手能触到的东西。",
+    "why": "界面不只显示信息，也能改变身边物体的位置和形状。",
+    "how": "密集排列的可升降柱体呈现三维形状，也能推动桌上物体，传递远处人的动作。",
+    "limit": "研究原型；形状分辨率和机构规模限制了实际使用。",
+    "topics": ["新交互", "实体计算"], "status": "研究原型", "image": "assets/inform.jpg", "imageCredit": "inFORM 项目团队 · MIT Tangible Media Group",
+    "source": "https://tangible.media.mit.edu/project/inform/", "demo": "https://tangible.media.mit.edu/project/inform/", "addedAt": "2026-10-28", "verifiedAt": "2026-10-28"
+  },
+  {
+    "id": "generative-agents", "name": "Generative Agents", "title": "让 25 个 AI，过自己的日子。", "team": "Joon Sung Park 等 · Stanford / Google", "year": 2023,
+    "summary": "记忆、反思、计划。一个会自己传播派对邀请的 AI 小镇。",
+    "why": "从单个 Agent 的行为，走向整个小镇的社会互动。",
+    "how": "为角色保存经历，通过检索、反思和规划生成后续行动，并观察角色之间的互动。",
+    "limit": "行为模拟实验；表现连贯不等于能准确预测真人。",
+    "topics": ["AI 与人", "认知与感知"], "status": "开源研究", "image": "assets/generative-agents.svg", "imageCredit": "xplore 机制示意 · 非项目截图", "illustration": true,
+    "source": "https://arxiv.org/abs/2304.03442", "demo": "https://github.com/joonspk-research/generative_agents", "code": "https://github.com/joonspk-research/generative_agents", "addedAt": "2026-10-28", "verifiedAt": "2026-10-28"
+  },
+  {
+    "id": "alterego", "name": "AlterEgo", "title": "一句没说出口的话。", "team": "Arnav Kapur 等 · MIT Media Lab", "year": 2018,
+    "summary": "捕捉主动默说时的微弱肌肉信号，让人无声地与电脑交流。",
+    "why": "把人机交流从打字、出声说话，扩展到有意识的无声表达。",
+    "how": "可穿戴设备读取脸部和颈部的肌肉电信号，识别输入，再以骨传导反馈。",
+    "limit": "此卡介绍 MIT 研究版本；识别主动默说的信号，不读取任意思想。",
+    "topics": ["认知与感知", "AI 与人"], "status": "研究原型", "image": "assets/alterego.png", "imageCredit": "Jimmy Day / MIT Media Lab · CC BY 4.0",
+    "source": "https://www.media.mit.edu/projects/alterego/overview/", "demo": "https://www.media.mit.edu/projects/alterego/overview/", "addedAt": "2026-10-28", "verifiedAt": "2026-10-28"
+  },
+  {
+    "id": "dynamicland", "name": "Dynamicland", "title": "如果整个房间都是电脑。", "team": "Bret Victor 与 Dynamicland 团队", "year": 2024,
+    "summary": "纸张、卡片和模型成为计算的媒介。几个人围着桌子，一起动手思考。",
+    "why": "让计算支持同一个空间中的面对面合作。",
+    "how": "把程序关联到实体物件，通过感知和投影，让移动、摆放和组合产生计算反馈。",
+    "limit": "研究环境；需要专门空间与设备。这里链接的是 2024 年介绍。",
+    "topics": ["实体计算", "创作工具"], "status": "研究平台", "image": "assets/dynamicland.jpg", "imageCredit": "Dynamicland · 官方介绍视频画面",
+    "source": "https://dynamicland.org/2024/Intro/", "demo": "https://dynamicland.org/2024/Intro/", "addedAt": "2026-10-28", "verifiedAt": "2026-10-28"
+  },
+  {
+    "id": "omnitouch", "name": "OmniTouch", "title": "把世界，当作触摸屏。", "team": "Chris Harrison / Hrvoje Benko / Andy Wilson", "year": 2011,
+    "summary": "把界面投到手掌、墙壁或纸上，用手指直接操作。",
+    "why": "随手可用的交互表面，不必局限在手机的小屏幕里。",
+    "how": "肩戴式投影和深度感知设备，追踪手指与物体表面的接触。",
+    "limit": "研究原型；演示中的肩戴硬件不是量产产品。",
+    "topics": ["新交互", "认知与感知"], "status": "研究原型", "image": "assets/omnitouch.jpg", "imageCredit": "OmniTouch 项目团队 · 官方项目图",
+    "source": "https://www.chrisharrison.net/index.php/Research/OmniTouch", "demo": "https://www.chrisharrison.net/index.php/Research/OmniTouch", "paper": "https://www.chrisharrison.net/projects/omnitouch/omnitouch.pdf", "addedAt": "2026-10-28", "verifiedAt": "2026-10-28"
+  },
+  {
+    "id": "zanzibar", "name": "Project Zanzibar", "title": "让积木和玩具，进入故事。", "team": "Microsoft Research", "year": 2018,
+    "summary": "一张能认出物体的软垫，把真实玩具连接到屏幕里的世界。",
+    "why": "拿起、堆叠、摆放，本来就可以是自然的输入方式。",
+    "how": "柔性垫结合 NFC 与触摸感知，追踪带标签物体及手的操作。",
+    "limit": "需要给物体添加标签；此处图形仅用于解释机制。",
+    "topics": ["实体计算", "创作工具"], "status": "研究原型", "image": "assets/zanzibar.svg", "imageCredit": "xplore 机制示意 · 非项目截图", "illustration": true,
+    "source": "https://www.microsoft.com/en-us/research/project/project-zanzibar/", "demo": "https://www.microsoft.com/en-us/research/project/project-zanzibar/", "addedAt": "2026-10-28", "verifiedAt": "2026-10-28"
+  },
+  {
+    "id": "skinput", "name": "Skinput", "title": "在手臂上，敲一个按钮。", "team": "Chris Harrison / Desney Tan / Dan Morris", "year": 2010,
+    "summary": "通过敲击皮肤产生的振动，识别手指点在了哪里。",
+    "why": "把一直随身携带的身体，变成可用的交互表面。",
+    "how": "可穿戴声学传感器分析振动特征，区分手臂和手上的敲击位置。",
+    "limit": "研究原型；识别位置的可靠性依赖传感器与使用条件。",
+    "topics": ["新交互", "认知与感知"], "status": "研究原型", "image": "assets/skinput.jpg", "imageCredit": "Skinput 项目团队 · 官方项目图",
+    "source": "https://www.chrisharrison.net/index.php/Research/Skinput", "demo": "https://www.chrisharrison.net/index.php/Research/Skinput", "paper": "https://www.chrisharrison.net/projects/skinput/SkinputHarrison.pdf", "addedAt": "2026-10-28", "verifiedAt": "2026-10-28"
+  },
+  {
+    "id": "tapsense", "name": "TapSense", "title": "指尖、指甲、指节，各有用途。", "team": "Chris Harrison / Julia Schwarz / Scott Hudson", "year": 2011,
+    "summary": "听懂不同敲击的声音，给触摸屏增加新的输入方式。",
+    "why": "同一只手，可以表达比单次点击更多的意图。",
+    "how": "分析手指接触屏幕时产生的声音，分类指尖、指甲和指节等接触方式。",
+    "limit": "原型评估结果依赖具体设置；相关技术后由 Qeexo 商业化为 FingerSense。",
+    "topics": ["新交互", "认知与感知"], "status": "研究与转化", "image": "assets/tapsense.jpg", "imageCredit": "TapSense 项目团队 · 官方项目图",
+    "source": "https://www.chrisharrison.net/index.php/Research/TapSense/", "demo": "https://www.chrisharrison.net/index.php/Research/TapSense/", "paper": "https://chrisharrison.net/projects/tapsense/tapsense.pdf", "addedAt": "2026-10-28", "verifiedAt": "2026-10-28"
+  }
+]

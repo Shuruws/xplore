@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+const root=fileURLToPath(new URL('..',import.meta.url));
+const projects=JSON.parse(await fs.readFile(path.join(root,'content/projects.json'),'utf8'));
+const origin='https://xplore-shuruws.shuruws.chatgpt.site';
+const xml=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
+await fs.writeFile(path.join(root,'dist/projects.json'),JSON.stringify(projects,null,2)+'\n');
+const items=projects.map(p=>`<item><title>${xml(p.name+' — '+p.title)}</title><link>${xml(p.source)}</link><guid isPermaLink="false">xplore:${xml(p.id)}</guid><description>${xml(p.summary+' 来源：'+p.source)}</description><pubDate>${new Date(p.addedAt+'T09:00:00+08:00').toUTCString()}</pubDate>${p.topics.map(t=>`<category>${xml(t)}</category>`).join('')}</item>`).join('\n');
+await fs.writeFile(path.join(root,'dist/feed.xml'),`<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>xplore · Demo 收藏集</title><link>${origin}</link><description>人机交互、AI 与实体计算项目。当前为私有预览；公开版上线后方可作为公共订阅源。</description><language>zh-CN</language><atom:link href="${origin}/feed.xml" rel="self" type="application/rss+xml"/>${items}</channel></rss>\n`);
+console.log(`Built ${projects.length} projects and RSS. No email data or credentials included.`);
