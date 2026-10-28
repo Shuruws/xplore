@@ -9,3 +9,5 @@ body[data-view=masonry] .project-grid{display:block;columns:3;column-gap:24px}bo
 @media(max-width:380px){.intro-star{display:none}.project-card h2{overflow-wrap:anywhere}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 @media(min-width:601px) and (max-height:800px){.intro{padding:30px 0 28px}.intro h1{font-size:48px}.intro .eyebrow{margin-bottom:15px}.intro-note{margin-top:12px}.issue-note .note-no{font-size:42px}.issue-note .eyebrow{margin-bottom:13px}}
+.newsletter{margin-top:48px}
+@media(max-width:600px){.intro h1{font-size:clamp(28px,7.3vw,42px)}}

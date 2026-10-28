@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#181613">
-  <title>xplore — 有意思的项目，慢慢收集。</title>
-  <meta name="description" content="精选人机交互、AI 与实体计算项目。看演示，读原始资料，保留好奇心。">
+  <title>xplore — 交互与 AI 项目精选</title>
+  <meta name="description" content="每天精选 1–2 个交互与 AI 项目，附演示与原始资料。">
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="xplore RSS" href="feed.xml">
   <link rel="stylesheet" href="style.css">
@@ -18,23 +18,21 @@
   </div></header>
   <main class="shell">
     <section class="intro" aria-labelledby="intro-title">
-      <div class="intro-copy"><p class="eyebrow"><span class="live-dot"></span> A FIELD GUIDE TO POSSIBLE FUTURES</p><h1 id="intro-title">留一点空间，<br>给<span>好奇心。</span><svg class="intro-star" viewBox="0 0 80 80" aria-hidden="true"><path d="M40 0v80M0 40h80M12 12l56 56M12 68L68 12"/></svg></h1><p class="intro-note">那些让人忍不住说「还能这样？」的项目。</p></div>
-      <aside class="issue-note"><span class="note-no">001</span><span class="eyebrow">THE FIRST COLLECTION</span><p>从一张会变形的桌子，<br>到一个 AI 小镇。</p><a href="#collection">开始闲逛 <span aria-hidden="true">↓</span></a></aside>
+      <div class="intro-copy"><h1 id="intro-title">明天的日常，<br><span>会从哪个异想开始？</span></h1><p class="intro-note">交互、AI 与实体计算里的大胆尝试。</p></div>
     </section>
     <section id="collection" aria-label="项目收藏集">
-      <div class="collection-top"><span class="section-label">THE COLLECTION <span id="total-count">08</span></span><div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><label class="sr-only" for="search">搜索项目、团队或主题</label><input id="search" type="search" placeholder="搜索项目、团队、主题…" autocomplete="off"><kbd>/</kbd></div></div>
+      <div class="collection-top"><span class="section-label">项目精选 <span id="total-count">08</span></span><div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><label class="sr-only" for="search">搜索项目、团队或主题</label><input id="search" type="search" placeholder="搜索项目、团队、主题…" autocomplete="off"><kbd>/</kbd></div></div>
       <div class="collection-controls"><div id="filters" class="filters" role="group" aria-label="主题筛选"></div><label class="sort-label"><span class="sr-only">排序</span><select id="sort"><option value="curated">精选顺序</option><option value="year">项目年份 ↓</option><option value="name">名称 A–Z</option></select></label></div>
       <p class="result-status sr-only" id="result-status" role="status" aria-live="polite"></p>
       <div class="project-grid" id="projects"><p class="loading">正在打开收藏集…</p></div>
       <div class="empty-state" id="empty" hidden><span>∅</span><h2>这里还没有项目</h2><p id="empty-note">换个关键词，或清除筛选再逛逛。</p><button id="reset-filters">查看全部项目 ↗</button></div>
-      <div class="collection-end"><span class="tiny-star" aria-hidden="true">✳</span><p>好项目值得被看见，也值得被验证。</p><span>每条收录都指向原始来源。</span></div>
     </section>
-    <section class="newsletter" aria-labelledby="newsletter-title"><div><p class="eyebrow">STAY CURIOUS</p><h2 id="newsletter-title">下一个「还有这种东西？」</h2><p>每天精选 1–2 个。邮件与 RSS，按你喜欢的方式。</p></div><div class="newsletter-actions"><button class="subscribe-trigger primary">预览邮件订阅 <span aria-hidden="true">↗</span></button><a href="feed.xml" target="_blank" rel="noopener">查看 RSS <span aria-hidden="true">↗</span></a><small>Demo：邮件订阅尚未开放。</small></div></section>
+    <section class="newsletter" aria-labelledby="newsletter-title"><div><h2 id="newsletter-title">订阅每日精选</h2><p>每天 1–2 个项目，通过邮件或 RSS 获取。</p></div><div class="newsletter-actions"><button class="subscribe-trigger primary">预览邮件订阅 <span aria-hidden="true">↗</span></button><a href="feed.xml" target="_blank" rel="noopener">查看 RSS <span aria-hidden="true">↗</span></a><small>Demo：邮件订阅尚未开放。</small></div></section>
   </main>
-  <footer class="site-footer shell"><span class="footer-brand">xplore<span>.</span></span><span>Collected with curiosity. Checked against sources.</span><a href="https://github.com/Shuruws/the-outer-loop" target="_blank" rel="noopener noreferrer">A sibling of The Outer Loop ↗</a></footer>
+  <footer class="site-footer shell"><span class="footer-brand">xplore<span>.</span></span></footer>
   <div class="demo-dock" role="group" aria-label="切换排版预览"><span class="dock-label">排版预览</span><button data-view="gallery" aria-pressed="true"><span>A</span> 图文卡片</button><button data-view="masonry" aria-pressed="false"><span>B</span> 瀑布画廊</button><button data-view="index" aria-pressed="false"><span>C</span> 紧凑目录</button><button id="choose-view" class="choose-view">选这个 ↗</button></div>
   <dialog id="project-dialog" aria-labelledby="detail-name"><button class="dialog-close" aria-label="关闭项目详情">×</button><div id="detail-body"></div></dialog>
-  <dialog id="subscribe-dialog" aria-labelledby="subscribe-title"><button class="dialog-close" aria-label="关闭订阅预览">×</button><p class="eyebrow">A LITTLE CURIOSITY, DAILY</p><h2 id="subscribe-title">把好奇心，寄进收件箱。</h2><p class="subscribe-copy">每天 1–2 个项目，一句话亮点和原始链接。</p><form id="subscribe-form"><label for="email">邮箱地址</label><input id="email" name="email" type="email" placeholder="you@example.com" required autocomplete="email"><button type="submit" class="primary">预览确认流程 ↗</button></form><p class="demo-notice">这是流程预览：邮箱不会保存，也不会发送邮件。</p><div id="subscribe-result" hidden role="status"><span class="success-mark">✓</span><h3>真实订阅将从确认邮件开始。</h3><p>点击确认后才订阅，每封邮件都可退订。当前 Demo 未提交你的邮箱。</p></div><a class="rss-alternative" href="feed.xml" target="_blank" rel="noopener">或查看 RSS 样本 ↗</a></dialog>
+  <dialog id="subscribe-dialog" aria-labelledby="subscribe-title"><button class="dialog-close" aria-label="关闭订阅预览">×</button><h2 id="subscribe-title">邮件订阅</h2><p class="subscribe-copy">每天 1–2 个项目，附亮点和原始链接。</p><form id="subscribe-form"><label for="email">邮箱地址</label><input id="email" name="email" type="email" placeholder="you@example.com" required autocomplete="email"><button type="submit" class="primary">预览确认流程 ↗</button></form><p class="demo-notice">这是流程预览：邮箱不会保存，也不会发送邮件。</p><div id="subscribe-result" hidden role="status"><span class="success-mark">✓</span><h3>真实订阅将从确认邮件开始。</h3><p>点击确认后才订阅，每封邮件都可退订。当前 Demo 未提交你的邮箱。</p></div><a class="rss-alternative" href="feed.xml" target="_blank" rel="noopener">或查看 RSS 样本 ↗</a></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
