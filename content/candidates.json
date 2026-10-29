@@ -1,1 +1,49 @@
-[]
+[
+  {
+    "id": "potluck",
+    "name": "Potluck",
+    "team": "Ink & Switch · Geoffrey Litt / Max Schoening / Paul Shen / Paul Sonnentag",
+    "year": 2022,
+    "summary": "让普通笔记逐步长成小工具：例如调整咖啡份数，配方里的用量随之变化。",
+    "why": "先按自己的习惯记文字，需要计算时再补功能，减少为适应应用而整理数据的负担。",
+    "how": "用自定义搜索从文本提取数据，以 JavaScript 公式计算，再把结果或控件显示回原文。",
+    "limit": "研究原型；制作功能仍需基本 JavaScript 知识，作者试用者主要是熟练程序员，不能视为已验证的零代码产品。",
+    "topics": [
+      "创作工具",
+      "新交互"
+    ],
+    "status": "研究原型",
+    "source": "https://www.inkandswitch.com/potluck/",
+    "demo": "https://www.inkandswitch.com/potluck/demo/",
+    "sourceAliases": [
+      "https://www.inkandswitch.com/project/potluck/"
+    ],
+    "addedAt": "2026-10-29",
+    "verifiedAt": "2026-10-29",
+    "verification": "已打开 Ink & Switch 官方项目页和 2022 年 10 月作者长文，核对作者、年份、数据提取—计算—原文标注机制及编程门槛；官方演示链接可访问，本次未实操演示。"
+  },
+  {
+    "id": "spellburst",
+    "name": "Spellburst",
+    "team": "Tyler Angert · Replit；Miroslav Ivan Suzara / Jenny Han / Christopher Lawrence Pondoc / Hariharan Subramonyam · Stanford",
+    "year": 2023,
+    "summary": "用文字生成艺术代码，把不同尝试留成节点，再分支、比较或合并。",
+    "why": "保留创作岔路，也允许从一句想法切换到参数和代码细调。",
+    "how": "大语言模型辅助生成与修改代码；节点保存作品和代码，配合分支、合并、动态参数控件及直接代码编辑。",
+    "limit": "研究原型；可能生成无法运行的代码，合并结果尤其难预测；论文中的短期专家评估不能证明长期创作效果。",
+    "topics": [
+      "AI 与人",
+      "创作工具"
+    ],
+    "status": "研究原型",
+    "source": "https://arxiv.org/abs/2308.03921",
+    "paper": "https://arxiv.org/html/2308.03921v1",
+    "sourceAliases": [
+      "https://doi.org/10.1145/3586183.3606719",
+      "https://hci.stanford.edu/publications/paper.php?id=493"
+    ],
+    "addedAt": "2026-10-29",
+    "verifiedAt": "2026-10-29",
+    "verification": "已打开作者提交的 arXiv 摘要和全文，核对 2023 年、作者所属机构、交互机制和第 7.2 节局限。Stanford 出版页本次抓取超时，未作为唯一证据；未核验可运行产品或仓库。"
+  }
+]
